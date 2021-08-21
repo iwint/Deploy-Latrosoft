@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
+@media (max-width: 1200px) {
+  .min-dis {
+    margin-top: 40px;
+  }
+  .testimonial .carosel-container {
+    max-width: 100%;
+  }
+  .testimonial .carosel-container .item-1 {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .testimonial .carosel-container .item-1 .item1-image {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+  }
+  .testimonial .carosel-container .item-1 .item1-image img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+  }
+  .arrow {
+    display: none !important;
+  }
+  .nav-list {
+    display: none;
+    text-align: center;
+    display: none;
+    top: 70px;
+    left: 0;
+    right: 0;
+    height: 400px;
+    position: absolute;
+    min-width: 100%;
+    background-color: #FF6E04;
+    z-index: 999;
+  }
+  .nav-list .active {
+    color: #FF6E04;
+  }
+  .nav-list button {
+    background-color: blanchedalmond !important;
+    color: #FF6E04 !important;
+  }
+  .nav-list ul {
+    display: block !important;
+    padding: 0;
+    list-style: none;
+  }
+  .nav-list ul li {
+    padding: 10px;
+    display: block !important;
+  }
+  .nav-list ul a {
+    color: white !important;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .start-btn {
+    width: 100% !important;
+  }
+  .mobile-menu .line {
+    height: 5px;
+    width: 30px;
+    background-color: #FF6E04;
+    margin-top: 5px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

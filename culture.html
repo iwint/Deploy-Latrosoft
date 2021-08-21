@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Latrosoft | Culture
+  </title>
+
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Favicon -->
+
+  <link rel="icon" href="/assets/Favi icon.png" sizes="16x16" type="image/png">
+
+  <!-- OG tag -->
+
+  <meta property="og:title" content="Latrosoft | World’s #1 app development company | Mobile app development" />
+  <meta property="og:description"
+    content="Your future starts today not tomorrow so grow up your ideas. Quickly have a look at Latrosoft" />
+  <meta property="og:image" content="./assets/logo.png" />
+
+  <!-- Keyword -->
+  <meta name="keywords"
+    content="Desktop Application, IOS development, iOS app development, iOS developer, app developer, app development, mobile app developer, mac app developers, web developers, android developers, mac OS X app development, ui/ux design" />
+  <meta name="description"
+    content="Your future starts today not tomorrow so grow up your ideas. Quickly have a look at Latrosoft" />
+
+  <meta property="og:url" content="https://www.latrosoft.in" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Latrosoft | World’s #1 app development company | Mobile app development" />
+  <meta property="og:description"
+    content="Your future starts today not tomorrow so grow up your ideas. Quickly have a look at Latrosoft." />
+  <meta property="og:image" content="./assets/logo.png" />
+
+  <!-- Twitter  -->
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Latrosoft | World’s #1 app development company | Mobile app development" />
+  <meta name="twitter:description"
+    content="Your future starts today not tomorrow so grow up your ideas. Quickly have a look at Latrosoft" />
+  <meta name="twitter:image" content="./assets/logo.png" />
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Font-Awesome -->
+
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/lsbot.js"></script>
+
+</head>
+
+<body>
+  <!-- Hero Section -->
+
+  <div id="hero" class="container hero">
+    <div class="nav-bar d-flex align-items-center justify-content-between">
+      <div class="brand">
+        <img src="./assets/logo.png" alt="" />
+        <span>Latrosoft</span>
+      </div>
+
+      <div class="nav-list px-5">
+        <ul>
+          <li><a class="link" href="./index.html">Home</a></li>
+          <li><a class="link" href="./services.html">Services</a></li>
+          <li><a class="link" href="./technology.html">Technology</a></li>
+          <li><a class="link active" href="./culture.html">Culture</a></li>
+          <li><a class="link " href="./career.html">Career</a></li>
+        </ul>
+        <a href="#hero" class="active-btn start-btn  px-5 py-2 my-5 mx-3 text-center">Start Your Project</a>
+      </div>
+      <div id="mobile-menu" class="mobile-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="proposal">
+      <div class="box">
+        <div class="head p-5">
+          <h1>Get Start</h1>
+          <div class="close">X</div>
+          <hr>
+        </div>
+        <div class="main  d-flex justify-content-center align-items-center">
+          <form id="regForm" action="">
+
+
+
+            <!-- One "tab" for each step in the form: -->
+            <div class="tab">Name:
+              <p><input placeholder="First name" id="fname" oninput="this.className = ''"></p>
+              <p><input placeholder="Last name" id="sname" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">Contact Info:
+              <p><input placeholder="E-mail" id="email" oninput="this.className = ''"></p>
+              <p><input placeholder="Phone" id="phone" oninput="this.className = ''"></p>
+            </div>
+
+
+            <div class="tab">
+              Project Type:
+              <p>
+
+
+
+                <select class="form-control" name="" id="ptype" oninput="this.className = 'form-control'">
+                  <option>Web Development</option>
+                  <option>App Development</option>
+                  <option>Desktop Development</option>
+
+                </select>
+
+
+
+              </p>
+              <p><input placeholder="Budget" id="cost" oninput="this.className = ''"></p>
+              <p><input placeholder="Discription" id="dis" oninput="this.className = ''"></p>
+            </div>
+
+            <div style="overflow:auto;">
+              <div style="float:right;">
+                <button class="btn form-btn px-3 py-2 " type="button" id="prevBtn"
+                  onclick="nextPrev(-1)">Previous</button>
+                <button class="btn form-btn px-3 py-2 " type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+              </div>
+            </div>
+
+            <!-- Circles which indicates the steps of the form: -->
+            <div style="text-align:center;margin-top:40px;">
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+            </div>
+
+          </form>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Hero-Culture -->
+  <div class="container-fluid hero-culture d-flex">
+    <div class="container hero-s-inner">
+      <div class="row d-flex align-items-center flex-wrap-reverse">
+        <div class="title col-lg-7 d-flex flex-column justify-content-center">
+          <h1 style="font-size: 36px; font-weight: bold; line-height: 50px">
+            Our Vocation Is To Get You The Solution And Stay Connected To
+            Succeed
+          </h1>
+          <a href="#hero" class="start-btn  px-5 py-2 my-2 text-center">Get a Proposal</a>
+        </div>
+        <div class="
+              img
+              col-lg-5
+              d-flex
+              justify-content-center
+              algin-items-center
+              py-4
+            ">
+          <img src="./assets/culture-1.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tools -->
+  <div class="
+        container
+        heading
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+        my-5
+      ">
+    <h1 class="text-center font-weight-bold" style="font-size: 36px; font-weight: bold; line-height: 50px">
+      Our Developers!
+    </h1>
+    <p class="text-center">
+      We have all the capabilities you expect from us right from App
+      Developments to Scaling
+    </p>
+  </div>
+
+  <!-- Start-ups -->
+  <div class="container Start-ups my-5">
+    <div class="row culture-2 col-12 ">
+      <div class="img col-lg-7 sm-10">
+        <img src="./assets/culture-2.png" alt="" />
+      </div>
+      <div class="
+            title
+            col-lg-5
+            sm-10
+            align-items-sm-start
+            d-flex
+            flex-column
+            justify-content-center
+            
+          
+          ">
+        <h2 class="my-3" style="font-size: 36px; font-weight: bold; line-height: 50px;">
+          App Development
+        </h2>
+        <p>
+          The rich and interactive experiences we have come to expect on
+          mobile apps have created new standards and expectations for all
+          digital media. Enhance your user experience with the latest
+          technologies with us.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Team-1 -->
+  <div class="container team-1 my-5">
+    <div class="row culture-3 col-12 d-flex justify-content-between flex-wrap">
+      <div class="
+            title
+            col-lg-5 col-sm-12
+            d-flex
+            flex-column
+            justify-content-center
+          ">
+        <h2 class="my-3" style="font-size: 36px; font-weight: bold; line-height: 50px">
+          Technological Service
+        </h2>
+        <p>
+          Today's technology is a booming market full of exciting and
+          innovative products and new learning Opportunities. We ensure to
+          provide robust technological service which takes to you the next
+          level.
+        </p>
+      </div>
+      <div class="img col-lg-5 sm-10 align-self-center">
+        <img src="./assets/culture-3.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="container team-2 my-5 ">
+    <div class="row culture-4 col-12 d-flex justify-content-between flex-wrap-reverse">
+      <div class="img col-lg-5 sm-10 align-self-center">
+        <img src="./assets/culture-4.png" alt="" />
+      </div>
+      <div class="
+            title
+            col-lg-5
+            sm-10
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+          ">
+        <h2 class="my-3 font-weight-bold" style="font-size: 36px; font-weight: bold; line-height: 50px">
+          Research and Development
+        </h2>
+        <p>
+          Latrosoft has the set of innovative activities that are researched
+          and developed for bringing a fair products! With the research we will
+          make necessary developments with creating new knowledge. So Predict
+          the future by creating software with us today.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <div class=" footer-down d-flex flex-column align-items-center">
+    <div class="row footer-item col-12 d-flex justify-content-between">
+      <div class="brand col-lg-4 col-sm-12 my-2">
+        <img src="./assets/footlogo.png" alt="">
+        <h2 class="my-2" style="font-weight: bold;">Latrosoft</h2>
+        <p>Digitally empowering your business<br> Excellent network assurance<br> Developing solutions which
+          creates revolution.</p>
+      </div>
+
+      <div class="overview col-lg-2 col-sm-6 my-2">
+        <h4>Overview</h4>
+        <ul>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./technology.html">Technology</a></li>
+          <li><a href="./culture.html">Culture</a></li>
+          <li><a href="./career.html">Career</a></li>
+        </ul>
+      </div>
+
+      <div class="links col-lg-2 col-sm-6 my-2">
+        <h4>Helpful Links</h4>
+        <ul>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./career.html">Career</a></li>
+        </ul>
+      </div>
+
+      <div class="contact col-lg-3 col-sm-6 my-2">
+        <h4>Contact Us</h4>
+        <ul>
+          <a href="tel:+91-9626666685"><i style="font-size: 24px ; margin-right:10px ;" class="iconify"
+              data-icon="mdi:phone"></i>+91-9626666685</a><br>
+          <a href="mailto:Softlatro@gmail.com"><i style="font-size: 24px; margin-right:10px;" class="iconify"
+              data-icon="mdi:envelope"></i>Softlatro@gmail.com</a><br>
+        </ul>
+        <h4 class="my-3">Social Media</h4>
+        <div class="social-link">
+          <a href="https://www.facebook.com/latrosoft"><i style="font-size: 24px;" class="iconify"
+              data-icon="mdi:facebook" data-inline="false"></i></a>
+          <a href="https://www.instagram.com/latrosoft/"><i style="font-size: 24px;" class="iconify"
+              data-icon="mdi:instagram" data-inline="false"></i></a>
+          <a href="https://twitter.com/latrosoft"><i style="font-size: 24px;" class="iconify" data-icon="mdi:twitter"
+              data-inline="false"></i></a>
+          <a href="https://www.youtube.com/channel/UCK491hLt4cMof7NlTmHJeRg"><i style="font-size: 24px;" class="iconify"
+              data-icon="mdi:youtube" data-inline="false"></i></a>
+          <a href="https://www.linkedin.com/company/latrosoft/"><i style="font-size: 24px;" class="iconify"
+              data-icon="mdi:linkedin" data-inline="false"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright ">
+      <p class="text-center">Latrosoft © Copyright 2021 |All Rights Reserved.</p>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/formProposal.js"></script>
+  <script src="./js/lsbot.js"></script>
+</body>
+
+
+</html>
