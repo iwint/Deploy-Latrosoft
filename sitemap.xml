@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--	created with www.mysitemapgenerator.com	-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://www.latrosoft.in/</loc>
-		<lastmod>2021-08-20T18:27:17+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.latrosoft.in/index.html</loc>
-		<lastmod>2021-08-20T18:27:17+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.latrosoft.in/services.html</loc>
-		<lastmod>2021-08-20T18:27:20+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.latrosoft.in/technology.html</loc>
-		<lastmod>2021-08-20T18:27:21+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.latrosoft.in/culture.html</loc>
-		<lastmod>2021-08-20T18:27:21+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.latrosoft.in/career.html</loc>
-		<lastmod>2021-08-20T18:27:24+01:00</lastmod>
-		<priority>1.0</priority>
-	</url>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://www.latrosoft.in/</loc>
+	<lastmod>2021-08-21T05:31:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.latrosoft.in/index.html</loc>
+	<lastmod>2021-08-21T05:31:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.latrosoft.in/services.html</loc>
+	<lastmod>2021-08-21T05:31:30+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.latrosoft.in/technology.html</loc>
+	<lastmod>2021-08-21T05:31:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.latrosoft.in/culture.html</loc>
+	<lastmod>2021-08-21T05:31:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.latrosoft.in/career.html</loc>
+	<lastmod>2021-08-21T05:31:32+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 </urlset>
