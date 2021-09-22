@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
+
 @media (max-width: 1200px) {
+   
   .min-dis {
     margin-top: 40px;
   }
@@ -107,7 +109,10 @@
 .home {
   background-image: url("../assets/Ellipse 1.png");
   background-repeat: no-repeat;
+ 
 }
+
+
 
 .primary {
   color: #FF6E04;
@@ -403,6 +408,7 @@
   max-width: 100%;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .footer-down h4 {
@@ -510,7 +516,7 @@
   height: 100%;
 }
 
-.hero-services .hero-s-inner .row .title h1 {
+.hero-services .hero-s-inner .row .title h2 {
   font-size: 30px;
 }
 
@@ -595,7 +601,7 @@
   height: 100%;
 }
 
-.hero-technology .hero-s-inner .row .title h1 {
+.hero-technology .hero-s-inner .row .title h2 {
   font-size: 30px;
 }
 
@@ -755,3 +761,4 @@ input.invalid {
   background-color: #fc8c3d;
 }
 /*# sourceMappingURL=style.css.map */
+

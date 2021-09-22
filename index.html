@@ -14,7 +14,7 @@
     <!-- Favicon -->
 
 
-    <link rel="icon" href="/assets/Favi icon.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="./assets/Favi icon.png" sizes="16x16" type="image/png">
     <!-- Keyword -->
     <meta name="keywords"
         content="Desktop Application, IOS development, iOS app development, iOS developer, app developer, app development, mobile app developer, mac app developers, web developers, android developers, mac OS X app development, ui/ux design">
@@ -27,14 +27,14 @@
     <meta property="og:title" content="Latrosoft | World’s #1 app development company | Mobile app development">
     <meta property="og:description"
         content="Your future starts today not tomorrow so grow up your ideas. Quickly have a look at Latrosoft.">
-    <meta property="og:image" content="https://www.latrosoft.in/assets/logo.png">
+    <meta property="og:image" content="./assets/logo.png">
 
     <!-- Twitter  -->
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Latrosoft | World’s #1 app development company | Mobile app development">
     <meta name="twitter:description"
-        content="Your future starts today not tomorrow so grow up your ideas. Quickly have a look at Latrosoft">
+        content="Your future starts Today Not Tomorrow So Grow Up Your Ideas. Quickly have a look at Latrosoft">
     <meta name="twitter:image" content="./assets/logo.png">
 
     <!-- Bootstrap CSS -->
@@ -52,13 +52,17 @@
     <!-- Axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
     <script src="./js/main.js"></script>
     <script src="./js/lsbot.js"></script>
 
 
 </head>
 
-<body class="home">
+<body class="home" onload="myFunction()">
+
+
+    <!-- <div class="loader"></div> -->
 
     <!-- Hero Section -->
 
@@ -88,7 +92,7 @@
         </div>
         <div class="hero-section d-flex justify-content-between flex-wrap-reverse ">
             <div class="hero-left col-lg-6 d-flex flex-column justify-content-center">
-                <h1 class="font-weight-bold ">Turn Your Ideas <br> into <span class="primary">Future.</span> </h1>
+                <h2 class="font-weight-bold " style="line-height: 50px; font-size: 36px;">Turn Your Ideas <br> into <span class="primary">Future.</span> </h2>
                 <p>Your Future Starts Today not Tomorrow so Grow up Your Ideas. Quickly have a look at Latrosoft</p>
                 <a href="#hero" class="start-btn  px-5 py-2 my-2 text-center">Get a Proposal</a>
             </div>
@@ -100,7 +104,7 @@
         <div class="proposal">
             <div class="box">
                 <div class="head p-5">
-                    <h1>Get Start</h1>
+                    <h2>Get Start</h2>
                     <div class="close">X</div>
                     <hr>
                 </div>
@@ -174,9 +178,9 @@
 
     <div class="container minds my-5">
         <div class="title d-flex flex-column align-items-center">
-            <h1 class="mind-title p-lg-3 text-center font-weight-bold">
+            <h2 class="mind-title p-lg-3 text-center font-weight-bold"; style="line-height: 50px">
                 Pleasure To Work With Talented Clients
-            </h1>
+            </h2>
             <p class="mind-para p-lg-3 text-center">
                 You are unique with your bright ideas. You are worth to take risk and say what you think. Our ultimate
                 aim is to turn up ideas into reality.
@@ -188,15 +192,15 @@
         <div class="d-flex justify-content-between flex-wrap my-5">
             <div class="col-lg-6 col-md-12">
                 <div class="title">
-                    <h2 class="text-center font-weight-bold">Powering Your Digital Dreams. Taking Your Business Ahead
+                    <h2 class="text-center font-weight-bold" style="line-height: 50px">Powering Your Digital Dreams. Taking Your Business Ahead
                     </h2>
-                    <p class="text-center my-3">Your idea of yesterday! Today's innovation of Latrosoft! Tomorrow's our
+                    <p class="text-center my-3 mt-2">Your idea of yesterday! Today's innovation of Latrosoft! Tomorrow's our
                         future implementation! There are things that money can't buy. We think it is our digital
                         relationship of believing one another.</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
-                <h2 class="text-center font-weight-bold">Dream Up Great Ideas. Work With it Until it's Realized</h2>
+                <h2 class="text-center font-weight-bold" style="line-height: 50px">Dream Up Great Ideas. Work With it Until it's Realized</h2>
                 <p class="text-center  my-3">Everything begins with an idea. Let your ideas give us an inspiration. We
                     work
                     for your dream project until it's realized. You will have a pleasure working with us. <br><br> </p>
@@ -206,7 +210,7 @@
     <!-- Testimonial -->
     <div class="container testimonial my-3 d-flex flex-column align-items-center">
         <div class="clients d-flex flex-column align-items-center  ">
-            <h1 class="text-center font-weight-bold">Finest Work For Our Clients!</h1>
+            <h2 class="text-center font-weight-bold"style="line-height: 50px" >Finest Work For Our Clients!</h2>
             <p class="text-center ">Our team is specifically designed to develop software to the fullest of our clients
                 wish.
                 We succeed only if our customers and their businesses succeed..</p>
@@ -249,70 +253,70 @@
     </div>
     <!-- Proposal-foot -->
     <div class="container prop-footer d-flex flex-column justify-content-center align-items-center ">
-        <h2 style="text-align: center;"><strong>Let Us Indulge Together For A Great Change.</strong></h2>
+        <h2 style="text-align: center;line-height: 50px"><strong>Let Us Indulge Together For A Great Change.</strong></h2>
 
 
         <a href="#hero" class="start-btn  px-5 py-2 my-5 text-center">Get a Proposal</a>
 
     </div>
 
-    <!-- footer -->
+ <!-- footer -->
 
-    <div class=" footer-down d-flex flex-column align-items-center">
-        <div class="row footer-item col-12 d-flex justify-content-between">
-            <div class="brand col-lg-4 col-sm-12 my-2">
-                <img src="./assets/footlogo.png" alt="">
-                <h2 class="my-2" style="font-weight: bold;">Latrosoft</h2>
-                <p>Digitally empowering your business<br> Excellent network assurance<br> Developing solutions which
-                    creates revolution.</p>
-            </div>
+ <div class=" footer-down d-flex flex-column align-items-center">
+    <div class="row footer-item col-12 d-flex justify-content-between mt-3 ml-lg-5">
+      <div class="brand col-lg-4 col-sm-12 my-2">
+        <img src="./assets/footlogo.png" alt="">
+        <h2 class="my-2" style="font-weight: bold;line-height: 50px">Latrosoft</h2>
+        <p>Digitally empowering your business<br> Excellent network assurance<br> Developing solutions which
+          creates revolution.</p>
+      </div>
 
-            <div class="overview col-lg-2 col-sm-6 my-2">
-                <h4>Overview</h4>
-                <ul>
-                    <li><a href="./services.html">Services</a></li>
-                    <li><a href="./technology.html">Technology</a></li>
-                    <li><a href="./culture.html">Culture</a></li>
-                    <li><a href="./career.html">Career</a></li>
-                </ul>
-            </div>
+      <div class="overview col-lg-2 col-sm-6 my-2">
+        <h4>Overview</h4>
+        <ul>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./technology.html">Technology</a></li>
+          <li><a href="./culture.html">Culture</a></li>
+          <li><a href="./career.html">Career</a></li>
+        </ul>
+      </div>
 
-            <div class="links col-lg-2 col-sm-6 my-2">
-                <h4>Helpful Links</h4>
-                <ul>
-                    <li><a href="./services.html">Services</a></li>
-                    <li><a href="./career.html">Career</a></li>
-                </ul>
-            </div>
+      <div class="links col-lg-2 col-sm-6 my-2">
+        <h4>Helpful Links</h4>
+        <ul>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./career.html">Career</a></li>
+        </ul>
+      </div>
 
-            <div class="contact col-lg-3 col-sm-6 my-2">
-                <h4>Contact Us</h4>
-                <ul>
-                    <a href="tel:+91-9626666685"><i style="font-size: 24px ; margin-right:10px ;" class="iconify"
-                            data-icon="mdi:phone"></i>+91-9626666685</a><br>
-                    <a href="mailto:Softlatro@gmail.com"><i style="font-size: 24px; margin-right:10px;" class="iconify"
-                            data-icon="mdi:envelope"></i>Softlatro@gmail.com</a><br>
-                </ul>
-                <h4 class="my-3">Social Media</h4>
-                <div class="social-link">
-                    <a href="https://www.facebook.com/latrosoft"><i style="font-size: 24px;" class="iconify"
-                            data-icon="mdi:facebook" data-inline="false"></i></a>
-                    <a href="https://www.instagram.com/latrosoft/"><i style="font-size: 24px;" class="iconify"
-                            data-icon="mdi:instagram" data-inline="false"></i></a>
-                    <a href="https://twitter.com/latrosoft"><i style="font-size: 24px;" class="iconify"
-                            data-icon="mdi:twitter" data-inline="false"></i></a>
-                    <a href="https://www.youtube.com/channel/UCK491hLt4cMof7NlTmHJeRg"><i style="font-size: 24px;"
-                            class="iconify" data-icon="mdi:youtube" data-inline="false"></i></a>
-                    <a href="https://www.linkedin.com/company/latrosoft/"><i style="font-size: 24px;" class="iconify"
-                            data-icon="mdi:linkedin" data-inline="false"></i></a>
-                </div>
-            </div>
+      <div class="contact col-lg-3 col-sm-6 my-2">
+        <h4>Contact Us</h4>
+        <ul>
+          <a href="tel:+91-9626666685"><i style="font-size: 24px ; margin-right:10px ;" class="iconify"
+              data-icon="mdi:phone"></i>+91-9626666685</a><br>
+          <a href="mailto:Softlatro@gmail.com"><i style="font-size: 24px; margin-right:10px;" class="iconify"
+              data-icon="mdi:envelope"></i>Softlatro@gmail.com</a><br>
+        </ul>
+        <h4 class="my-3">Social Media</h4>
+        <div class="social-link">
+          <a href="https://www.facebook.com/latrosoft"><i style="font-size: 24px;" class="iconify"
+              data-icon="mdi:facebook" data-inline="false"></i></a>
+          <a href="https://www.instagram.com/latrosoft/"><i style="font-size: 24px;" class="iconify"
+              data-icon="mdi:instagram" data-inline="false"></i></a>
+          <a href="https://twitter.com/latrosoft"><i style="font-size: 24px;" class="iconify" data-icon="mdi:twitter"
+              data-inline="false"></i></a>
+          <a href="https://www.youtube.com/channel/UCK491hLt4cMof7NlTmHJeRg"><i style="font-size: 24px;" class="iconify"
+              data-icon="mdi:youtube" data-inline="false"></i></a>
+          <a href="https://www.linkedin.com/company/latrosoft/"><i style="font-size: 24px;" class="iconify"
+              data-icon="mdi:linkedin" data-inline="false"></i></a>
         </div>
-
-        <div class="copyright ">
-            <p class="text-center">Latrosoft © Copyright 2021 |All Rights Reserved.</p>
-        </div>
+      </div>
     </div>
+
+    <div class="copyright ">
+      <p class="text-center">Latrosoft © Copyright 2021 |All Rights Reserved.</p>
+    </div>
+  </div>
     <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -328,6 +332,8 @@
 
     <script src="./js/formProposal.js"></script>
     <script src="./js/lsbot.js"></script>
+    
+        
 
 
 </body>
