@@ -81,7 +81,7 @@
       transform: translateY(-50%);
       position: absolute;
       left: 25%;
-      
+
       top: 50%;
   }
   
@@ -240,6 +240,7 @@
   @media screen and (max-width:1200px){
       .main-timeline .timeline:after{ border-radius: 88px 0 0 88px; }
       .main-timeline .timeline:nth-child(even):after{ border-radius: 0 88px 88px 0; }
+      
   }
   @media screen and (max-width:767px){
       .main-timeline .timeline{ margin-top: -19px; }
@@ -274,8 +275,9 @@
       .main-timeline .timeline-icon{
           font-size: 50px;
           transform:translateY(0);
-          top: 25%;
+          top: 35%;
           left: 10%;
+          right: 10%;
       }
       .main-timeline .timeline-year{
           font-size: 25px;
